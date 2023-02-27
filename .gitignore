@@ -1,0 +1,59 @@
+#JAVA
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#INTELLIJ IDEA
+# User-specific stuff:
+.idea/
+*.iml
+out/
+
+#Serenity
+target/
+build/
+
+#gradle
+.gradle/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+#Sonar
+sonar-project.properties
+
+######################
+# Others
+######################
+.DS_Store
+history/
+/.idea/
+.idea
+.project
+.settings
+.classpath
+.vscode
+.java-version
+bin/
+.gradle
+gradle
+gradlew
+gradlew.*
+dependency-reduced-pom.xml
+examples/zip-release/*.jar
